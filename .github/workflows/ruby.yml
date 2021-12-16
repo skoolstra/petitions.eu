@@ -2,7 +2,7 @@ name: Ruby
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, kneeling-giraffe ]
   pull_request:
     branches: [ master ]
 
