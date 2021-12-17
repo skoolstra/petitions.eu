@@ -1,15 +1,14 @@
 source 'https://rubygems.org'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.11.3'
+gem 'rails', '~> 6.1', '>= 6.1.4.4'
 gem 'rails-i18n'
 
 gem 'paper_trail'
-gem 'globalize', '~> 5.3.1'
-gem 'globalize-versioning'
+gem 'globalize', '~> 6.0', '>= 6.0.1'
+# gem 'globalize-versioning'
 # friendly slugs..
 gem 'friendly_id'
-gem 'friendly_id-globalize'
+# gem 'friendly_id-globalize'
 
 gem 'mysql2', '0.5.2'
 
@@ -37,7 +36,7 @@ gem 'redcarpet'
 # pdf format templates
 gem 'prawn', '~> 2.2', '>= 2.2.2'
 gem 'prawn-table'
-gem 'prawnto'
+# gem 'prawnto'
 
 gem 'kaminari'
 gem 'kaminari-i18n'
@@ -45,11 +44,6 @@ gem 'kaminari-i18n'
 gem 'bourbon'
 gem 'simple_form'
 
-# Search.
-# gem 'elasticsearch-model', '~> 5.0', '>= 5.0.1'
-# gem 'elasticsearch-rails', '~> 5.0', '>= 5.0.1'
-
-# gem 'i18n_generators'
 gem 'i18n-tasks'
 
 # Use SCSS for stylesheets
@@ -60,7 +54,6 @@ gem 'uglifier', '~> 4.2'
 gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 gem 'font-awesome-rails'
 
-gem 'sprockets'
 gem 'sprockets-rails'
 
 # image file upload made easypeasy
@@ -73,7 +66,7 @@ gem 'sinatra', require: nil # sidekiq/web uses sinatra
 # create periodic tasks in your project
 gem 'whenever', require: false
 
-gem 'redis-rails'
+gem 'redis'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -83,7 +76,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.9'
 
-gem 'activeadmin', '~> 1.4'
+gem 'activeadmin', '~> 2.9'
 
 # bootstrap
 # gem 'bootstrap-sass', '~> 3.2.0'
@@ -108,7 +101,7 @@ end
 gem 'newrelic_rpm', '~> 6.15'
 gem 'rollbar', '~> 3.1'
 
-gem 'invisible_captcha', '~> 1.0'
+gem 'invisible_captcha', '~> 2.0'
 gem 'rack-attack', '~> 6.2'
 
 # Use CodeClimate and Semaphore CI for testing
