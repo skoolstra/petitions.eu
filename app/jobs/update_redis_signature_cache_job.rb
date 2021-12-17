@@ -1,5 +1,5 @@
 # Recalculate the signature counter cache in Redis for live petitions
-class UpdateRedisSignatureCacheJob < ActiveJob::Base
+class UpdateRedisSignatureCacheJob < ApplicationJob
   queue_as :low_priority
 
   def perform(petition)

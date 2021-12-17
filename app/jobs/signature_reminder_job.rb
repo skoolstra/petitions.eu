@@ -1,4 +1,4 @@
-class SignatureReminderJob < ActiveJob::Base
+class SignatureReminderJob < ApplicationJob
   queue_as :default
 
   def perform(signature)
